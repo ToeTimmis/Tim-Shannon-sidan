@@ -27,9 +27,15 @@ a {
     font-family: "Crimson Text", serif;
     color: white;
 }
+footer a{
+    font-family: "Crimson Text", serif;
+    color: black;
+}
 
 p {
     font-family: "Crimson Text", serif;
     font-size: 18px;
 }
-
+div #bilder {
+    display: flex;
+}
