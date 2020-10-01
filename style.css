@@ -46,6 +46,9 @@ article nav a {
 p {
     font-family: "Crimson Text", serif;
     font-size: 18px;
+    max-width: 65ch;
+    min-width: 40ch;
+    line-height: 1.5;
 }
 
 div  {
@@ -54,7 +57,14 @@ div  {
 }
 
 #PizzaTim {
-    height: 500px;
+    max-height: 500px;
+    min-height: 100px;
     width: auto;
+}
+
+#PanoramaTim {
+    max-width: 500px;
+    min-width: 100px;
+    height: auto;
 }
 
